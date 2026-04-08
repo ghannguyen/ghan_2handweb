@@ -1,0 +1,15 @@
+{
+  "name": "archive-marketplace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Luxury resale marketplace demo with Node OTP backend",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "twilio": "^5.13.1"
+  }
+}
